@@ -1,5 +1,5 @@
-![alt text][logo] # Bank of Rory Database Assignment
- [logo]: https://raw.github.com/rorynee/bankOfRoryDatabaseAssignment/master/website/bankofrory/image/borlogo.png  "Bank Of Rory Logo"
+#![alt text][logo] Bank of Rory Database Assignment
+ [logo]: https://raw.github.com/rorynee/bankOfRoryDatabaseAssignment/master/website/bankofrory/images/borlogo.png  "Bank Of Rory Logo"
 
 [Click here to view demo video]( https://www.youtube.com/watch?v=lB45oAA2Gcw "AIT - Databases 4 Second Assignment")
 
@@ -25,7 +25,9 @@ Please view ‘Database Assignment Tasks.pdf’ for the full details of the assignme
 
 The system that I have made is a banking system called “Bank of Rory”. This system could be used in a bank together with some kind of cash dispensing facility attached to it.
 This system was built in PHP using the Slim Framework. The Slim Framework is a restful API. You will notice that throughout this system the URL are always restful. The main index.php file serves as a routing file for Slim and this file connects the URL’s with the function need to load them. These function are in the function.php, access.php and static_fn.php files.  
+
 There are two database PHP file include in the top section of the index file. These both show the database connection in a class using a singleton pattern. I have used this to stop multiple connection object being generated.  
+
 This system also used a MySQL database and a NoSQL (Mongodb) database. For information on how to start the project please view the “Running Bank of Rory” section.
 
 There are three different types of user roles incorporated into the system.
@@ -42,8 +44,10 @@ The administrator will have the only access to the report feature on the website
 ## Installation and Usage
 
 As per the assignment outline please download a Uniform XAMPP server and install Mongodb on it in a folder called ‘mongodb’. Please use the 64bit version. This should be installed on a USB stick as per the assignment outline. 
+
 Start XAMP server as usual. The NoSQL/Mongodb demon starts by running a bat file called “mongostartdemon.bat”. To close the Mongodb Demon press ctrl c and y for yes. I have created this for ease of use and it should be put in the main xamp folder. 
 The bankofrory folder should be put in the following location “xampp\htdocs\bankofrory”. The following URL will load the home page “http://localhost/bankofrory/”. 
+
 The NoSQL/Mongodb database can be accessed on command line using the “mongostart.bat” file when it is placed in the ‘mongodb’ folder. Mongodb config file is also supplied and can replace the file already in the ‘mongodb’ folder 
 
 ***
@@ -51,11 +55,17 @@ The NoSQL/Mongodb database can be accessed on command line using the “mongostart
 ##System Login’s
 
 The following are the Login details that you will need to access the system.
+
 Username: admin@bankofrory.com - Password: admin1234
+
 Username: support@bankofrory.com - Password: support1234
+
 Username: liam@example.com - Password: 1234567
+
 Username: will@yourbank.com - Password: 1234567
+
 Username: billy@ait.ie - Password: 1234567
+
 
 ***
 
