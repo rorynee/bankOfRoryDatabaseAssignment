@@ -1,0 +1,1 @@
+\xampp\mongodb\bin\mongod.exe --config=\xampp\mongodb\mongodb.config
